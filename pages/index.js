@@ -14,8 +14,9 @@ export default function Home() {
     const query = router.query;
 
     useEffect(() => {
-        setInterval(() => {
+        const interval = setInterval(() => {
             router.push("/dashboard");
+            clearInterval(interval)
         }, 2000)
     }, []);
 
@@ -24,14 +25,14 @@ export default function Home() {
             <div align={"center"} className={` !h-[100vh] ${styles.home}`}>
                 <Image alt="image" src={Logo}/>
                 <div className="mt-[9px]">
-                    <Image alt="image"  src={SubTitle}/>
+                    <Image alt="image" src={SubTitle}/>
                 </div>
                 <div className={"absolute w-full bottom-[34px]"}>
                     <div>
-                        <Image alt="image"  src={PoweredBy}/>
+                        <Image alt="image" src={PoweredBy}/>
                     </div>
                     <div className={"mt-[21px]"}>
-                        <Image alt="image"  src={Near}/>
+                        <Image alt="image" src={Near}/>
                     </div>
                 </div>
             </div>

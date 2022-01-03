@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import CustomSearchInput from "../SearchBar";
 import Image from "next/image";
 import FilterModal from "./FilterModal";
-import SearchIcon from "../../public/search.svg";
-import FilterIcon from "../../public/filter.svg";
+import SearchIcon from "../../public/Search.svg";
+import FilterIcon from "../../public/Filter.svg";
 
 const Filter = () => {
     const [isShow, setShow] = useState(false);
