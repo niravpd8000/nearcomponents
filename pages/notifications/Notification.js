@@ -47,7 +47,7 @@ const Notification = () => {
                             <div key={key} className={"flex mb-[24px]"}>
                                 <div className={"mt-[5px]"} align={"center"}>
                                     <div className={"w-[35px] h-[35px] mr-[17px]"}>
-                                        <Image
+                                            <Image alt="image"
                                             className={`rounded-full !w-[35px] !h-[35px]`}
                                             src={notification.prefixIcon}/>
                                     </div>
@@ -64,7 +64,7 @@ const Notification = () => {
                                     <div className={"font-medium font-[13px] text-[#6F6E73]"}>{notification.time}</div>}
                                 </div>
                                 {notification.postfixIcon && <div className={"mt-[5px] ml-[18px] !w-[48px] !h-[48px]"}>
-                                    <Image className={"!w-[48px] !h-[48px]"} src={notification.postfixIcon}/>
+                                    <Image alt="image"  className={"!w-[48px] !h-[48px]"} src={notification.postfixIcon}/>
                                 </div>}
                             </div>)}
                     </div>

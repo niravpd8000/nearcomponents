@@ -23,28 +23,28 @@ const Header = () => {
         <>
             <div className="flex justify-between pl-[20px] pr-[25px]  h-[71px] bg-[#F5F5F5]">
                 <span className="mt-[24px]" onClick={onClickHomeButton}>
-                    <Image src={LogoIcon}/>
+                    <Image alt="image"  src={LogoIcon}/>
                 </span>
                 <div className="ml-[55px] z-[1001] flex flex-row justify-between h-[45px] w-[174px] cursor-pointer
                                 rounded-[30px] border-solid border-2 mt-[13px] bg-[#FFFFFF]"
                      onClick={() => setShow(!isShow)}
                 >
                     <div className="mt-[5px] ml-[6px]">
-                        <Image src={AccountIcon}/>
+                        <Image alt="image"  src={AccountIcon}/>
                     </div>
                     <div className="mt-[7px] text-[14px] font-semibold">{selectedAccount}</div>
                     <div className="mt-[7px] mr-[7px]">
-                        <Image src={DownArrowIcon}/>
+                        <Image alt="image"  src={DownArrowIcon}/>
                     </div>
                 </div>
                 <div className={"flex flex-row justify-between"}>
                     <span className="ml-[11px] mt-[24px]" onClick={onClickBellButton}>
                         <Badge>
-                            <Image src={NotificationIcon}/>
+                            <Image alt="image"  src={NotificationIcon}/>
                         </Badge>
                     </span>
                     <span className="ml-[11px] mt-[24px]">
-                        <Image src={SettingsIcon}/>
+                        <Image alt="image"  src={SettingsIcon}/>
                     </span>
                 </div>
             </div>

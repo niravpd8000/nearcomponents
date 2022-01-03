@@ -39,7 +39,7 @@ const AccountModal = ({selectedAccount, setSelectedAccount, isShow, setShow}) =>
                                 >
                                     <div
                                         className={`rounded-full !w-[35px] mt-[0.5px] !h-[35px]`}>
-                                        <Image
+                                        <Image alt="image"
                                             className={`rounded-full`}
                                             src={account.profileImage}/>
                                     </div>
@@ -50,17 +50,17 @@ const AccountModal = ({selectedAccount, setSelectedAccount, isShow, setShow}) =>
                                 </div>
                             </div>
                             {selectedAccount === account.name && <div className="self-center mr-[25px]">
-                                <Image src={CheckIcon}/>
+                                <Image alt="image"  src={CheckIcon}/>
                             </div>}
                         </div>)}
                 </div>
                 <div className="border border-solid border-[#DFDFE0] mt-[18px]"/>
                 <div className="mt-[22px] ml-[15px] flex flex-row cursor-pointer">
-                    <Image src={PlusIcon}/>
+                    <Image alt="image"  src={PlusIcon}/>
                     <div className="ml-[16px] font-semibold">Create Account</div>
                 </div>
                 <div className="mt-[16px] pb-[33px] ml-[15px] flex flex-row cursor-pointer">
-                    <Image src={DownloadIcon}/>
+                    <Image alt="image"  src={DownloadIcon}/>
                     <div className="ml-[16px] font-semibold">Import Account</div>
                 </div>
             </Modal>

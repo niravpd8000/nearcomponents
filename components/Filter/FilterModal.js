@@ -11,12 +11,12 @@ import OtherIcon from "../../public/other.svg";
 
 const FilterModal = ({selectedFilters, setFilters, isShow, setShow}) => {
     const Filters = [
-        {icon: <Image src={ExchangeIcon} />, label: "Exchanges"},
-        {icon: <Image src={GameIcon} />, label: "Games"},
-        {icon: <Image src={MarketIcon} />, label: "Marketplace"},
-        {icon: <Image src={DeFiIcon} />, label: "DeFi"},
-        {icon: <Image src={CollectibleIcon} />, label: "Collectibles"},
-        {icon: <Image src={OtherIcon} />, label: "Others"},
+        {icon: <Image alt="image"  src={ExchangeIcon} />, label: "Exchanges"},
+        {icon: <Image alt="image"  src={GameIcon} />, label: "Games"},
+        {icon: <Image alt="image"  src={MarketIcon} />, label: "Marketplace"},
+        {icon: <Image alt="image"  src={DeFiIcon} />, label: "DeFi"},
+        {icon: <Image alt="image"  src={CollectibleIcon} />, label: "Collectibles"},
+        {icon: <Image alt="image"  src={OtherIcon} />, label: "Others"},
     ]
     const handleCheck = (name) => {
         const index = selectedFilters.indexOf(name);

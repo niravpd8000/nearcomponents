@@ -41,9 +41,9 @@ export default function Dashboard() {
         <Layout>
             {/*<div className={"flex pr-[16px]"}>*/}
             {/*    <SearchBar id={"searchBar"} className={"search-bar"} placeHolder={"Search experiences"}*/}
-            {/*               icon={<Image src={Search}/>} placeholder={"Search experiences"}/>*/}
+            {/*               icon={<Image alt="image"  src={Search}/>} placeholder={"Search experiences"}/>*/}
             {/*    <span className="self-center">*/}
-            {/*        <Image src={FilterIcon} className={styles.filterButton}/>*/}
+            {/*        <Image alt="image"  src={FilterIcon} className={styles.filterButton}/>*/}
             {/*    </span>*/}
             {/*</div>*/}
             <Filter className={"pb-[14px]"}/>

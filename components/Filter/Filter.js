@@ -19,10 +19,10 @@ const Filter = () => {
                         }}
                         id="searchBar"
                         placeHolder="Search experiences"
-                        icon={<Image src={SearchIcon}/>}
+                        icon={<Image alt="image"  src={SearchIcon}/>}
                     />
                     <span className=" self-center mt-[14px] cursor-pointer" onClick={() => setShow(!isShow)}>
-                            <Image src={FilterIcon}/>
+                            <Image alt="image"  src={FilterIcon}/>
                         </span>
                 </div>
             </div>

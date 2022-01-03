@@ -22,16 +22,16 @@ export default function Home() {
     return (
         <Layout>
             <div align={"center"} className={` !h-[100vh] ${styles.home}`}>
-                <Image src={Logo}/>
+                <Image alt="image" src={Logo}/>
                 <div className="mt-[9px]">
-                    <Image src={SubTitle}/>
+                    <Image alt="image"  src={SubTitle}/>
                 </div>
                 <div className={"absolute w-full bottom-[34px]"}>
                     <div>
-                        <Image src={PoweredBy}/>
+                        <Image alt="image"  src={PoweredBy}/>
                     </div>
                     <div className={"mt-[21px]"}>
-                        <Image src={Near}/>
+                        <Image alt="image"  src={Near}/>
                     </div>
                 </div>
             </div>
