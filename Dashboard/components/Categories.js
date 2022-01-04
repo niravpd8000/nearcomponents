@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import BlueArrow from "../../../public/BlueArrow2.svg";
-import styles from "../../../styles/Dashboard.module.css";
+import BlueArrow from "../../public/BlueArrow2.svg";
+import styles from "../../styles/Dashboard.module.css";
 import CardAvatar from "./CardAvatar";
-import RightArrowIcon from "../../../public/rightarrow.svg";
+import RightArrowIcon from "../../public/rightarrow.svg";
 
 export default function Categories({categories}) {
     return (
