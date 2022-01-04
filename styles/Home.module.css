@@ -1,0 +1,30 @@
+.boxPurple {
+    background-color: #885FFF;
+    background-repeat: round;
+    background-image: url("../public/background-blue.svg");
+}
+
+.boxPink {
+    background-color: #F7E9FF;
+    background-image: url("../public/background-spiral.svg");
+    background-repeat: round;
+    height: 178px;
+}
+
+.home {
+    position: relative;
+    background-image: url("../public/HomePage/Background.svg");
+    background-repeat: round;
+    height: 100%;
+    background-size: cover;
+    padding-top: 248px;
+}
+
+.subTitle{
+    margin-top: 9px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FCFCFC;
+    opacity: 0.9;
+}

@@ -1,0 +1,17 @@
+
+.boxCategories {
+    padding: 12px;
+    padding-right: 16px;
+    height: 94px;
+    /*font-family: Manrope;*/
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(51, 55, 59, 0.7);
+}
+
+.filterButton {
+    top: 12px !important;
+}
