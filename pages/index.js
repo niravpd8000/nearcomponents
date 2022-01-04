@@ -13,13 +13,6 @@ export default function Home() {
     const router = useRouter();
     const query = router.query;
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            router.push("/dashboard");
-            clearInterval(interval)
-        }, 2000)
-    }, []);
-
     return (
         <Layout>
             <div align={"center"} className={` !h-[100vh] ${styles.home}`}>
